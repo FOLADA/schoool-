@@ -1,0 +1,72 @@
+/* Reset default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-color: #f9f3e6; /* Soft yellow background */
+}
+
+/* Container for the sign-up form */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading style */
+.signup-container h1 {
+    color: #e07a5f; /* Coral pink */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+.signup-form {
+    text-align: left;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #e07a5f; /* Coral pink border */
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #f2846e; /* Lighter coral pink on focus */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e07a5f; /* Coral pink */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f2846e; /* Lighter coral pink on hover */
+}
+
+/* Link styles */
+p a {
+    color: #e07a5f; /* Coral pink */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #f2846e; /* Lighter coral pink on hover */
+}
